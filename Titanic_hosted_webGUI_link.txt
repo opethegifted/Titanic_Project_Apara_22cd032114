@@ -1,0 +1,6 @@
+Name: Apara Opeyemi
+Matric Number: XYZ123
+Machine Learning Algorithm Used: Logistic Regression
+Model Persistence Method: Joblib
+Live URL of Hosted Application: https://your-app-on-render.com
+GitHub Repository Link: https://github.com/yourusername/Titanic_Project_Opeyemi_xyz
