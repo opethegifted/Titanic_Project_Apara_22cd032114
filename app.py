@@ -5,8 +5,11 @@ import pandas as pd
 # ------------------------------
 # Load the trained model and scaler
 # ------------------------------
-model = joblib.load("titanic_survival_model.pkl")
-scaler = joblib.load("scaler.pkl")
+
+
+model = joblib.load("model/titanic_survival_model.pkl")
+scaler = joblib.load("model/scaler.pkl")
+
 
 # ------------------------------
 # Streamlit UI
@@ -46,3 +49,4 @@ if st.button("Predict Survival"):
     prediction = model.predict(input_scaled)
     result = "✅ Survived" if prediction[0] == 1 else "❌ Did Not Survive"
     st.success(f"Prediction: {result}")
+
